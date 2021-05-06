@@ -8,31 +8,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
+            <div class="nav-wrapper">
+                <div class="left-side">
+                    <div class="nav-link-wrapper active-nav-link">
+                        <a href="signup.php">Home</a>
+                    </div>
+                    <div class="nav-link-wrapper">
+                        <a href="login.php">LOGIN</a>
+                    </div>
+
+                    <div class="right-side">
+                        <div class="brand">
+                            <div>Alumni Donation</div>
+                         </div>
+                     </div> 
+                </div>
+            </div>
+
+ <div class="body-content">
+   <div class= "form">
     <form action="auth.php" method="post">
         <label for="matric">Matric No:</label>
         <div class="matric">
             <input type="text" name="matric" required>
         </div>
         <label for="firstname">First Name:</label>
-        <div class="firstname">
+        <div class="form-control">
             <input type="text" name="firstname" required>
         </div>
         <label for="lastname">Last Name:</label>
-        <div class="lastname">
+        <div class="form-control">
             <input type="text" name="lastname" required>
         </div>
         <label for="email">Email:</label>
-        <div class="email">
+        <div class="form-control">
             <input type="email" name="email" required>
         </div>
         <label for="phone">Phone Number:</label>
-        <div class="phone">
+        <div class="form-control">
             <input type="phone" name="phone" required>
         </div>
         <label for="password">Password:</label>
-        <div class="password">
+        <div class="form-control">
             <input type="password" name="password" required>
         </div>
         <label>Select your status:</label>
@@ -62,6 +83,9 @@
             <input type="submit" value="Submit">
         </div>
     </form>
+</div>
+</div>
+
     
 
     <?php

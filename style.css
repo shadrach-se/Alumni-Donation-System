@@ -1,0 +1,100 @@
+.right-side > div{
+    margin-right: 0px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    top: 40px;
+    right: 80px;
+    position: absolute;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+    color: white;
+    background-color: #1F2833!important;
+}
+
+.left-side{
+    display: flex;
+    top: 40px;
+}
+.nav-wrapper > .left-side > div{
+    margin-right: 15px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover{
+    color: black;
+}
+.active-nav-link{
+    border-bottom: 1px solid white;
+}
+.active-nav-link a{
+    color: wheat !important;
+}
+.content-wrapper{
+    font-family: 'Piazzolla', sans-serif;
+}
+.body-content{
+    padding-left: 50px;
+}
+.form-group2{
+    display: flex;
+    padding: 20px;
+}
+.form-signup{
+    padding: 15px;
+}
+.form-login{
+    padding: 15px;
+}
+.contact-form
+ {
+     padding: 10px;
+ }
+ .form-group
+ {
+     padding: 10px;
+ }
+ .form-control
+ {
+    border-radius: 0 !important;
+    border: none !important;
+     box-sizing: content-box;
+     width: 100%;   
+ }
+ ::placeholder
+ {
+     color: rgb(141, 140, 140) !important;
+     font-size: 120%;
+ }
+ .form-group1{
+     font:0.9em 'Piazzolla', sans-serif;   
+ }
+ .form{
+    top: 100px;
+    right: 100px;
+    position: absolute;
+ }
+ body{
+     background-color: #C5C6C7;
+     color:rgb(141, 140, 140) !important;
+ }

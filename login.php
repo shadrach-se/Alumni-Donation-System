@@ -1,14 +1,36 @@
 <?php
     session_start();
 ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signin</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
+<div class="container">
+            <div class="nav-wrapper">
+                <div class="left-side">
+                    <div class="nav-link-wrapper">
+                        <a href="signup.php">Home</a>
+                    </div>
+                    <div class="nav-link-wrapper active-nav-link">
+                        <a href="login.php">LOGIN</a>
+                    </div>
+
+                    <div class="right-side">
+                        <div class="brand">
+                            <div>Alumni Donation</div>
+                         </div>
+                     </div> 
+                </div>
+            </div>
+
     <div class="details">
         <form action="auth.php" method="post">
             <label for="matric">Matric No: </label>
